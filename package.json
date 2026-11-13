@@ -1,0 +1,16 @@
+{
+  "name": "gci-skills-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive, exercise-first learning for GCI World Sessions 1–9",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node server.mjs --dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
