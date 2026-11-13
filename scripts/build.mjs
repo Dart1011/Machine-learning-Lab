@@ -12,4 +12,4 @@ await Promise.all([
   cp(new URL('../src/', import.meta.url), new URL('src/', output), { recursive: true }),
 ]);
 
-console.log('Built GCI Skills Lab into dist/');
+console.log('Built Machine Learning Lab into dist/');

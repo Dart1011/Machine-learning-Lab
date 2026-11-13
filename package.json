@@ -1,9 +1,9 @@
 {
-  "name": "gci-skills-lab",
+  "name": "machine-learning-lab",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Interactive, exercise-first learning for GCI World Sessions 1–9",
+  "description": "Interactive Python and machine learning lessons, coding exercises, and instant feedback",
   "scripts": {
     "dev": "node server.mjs",
     "start": "node server.mjs",

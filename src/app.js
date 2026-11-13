@@ -137,9 +137,9 @@ function renderHeader() {
   return `
     <header class="site-header">
       <div class="container header-inner">
-        <button class="brand" type="button" data-action="home" aria-label="GCI Skills Lab home">
+        <button class="brand" type="button" data-action="home" aria-label="Machine Learning Lab home">
           <span class="brand-mark">${icon('logo')}</span>
-          <span class="brand-name">GCI <span>Skills Lab</span></span>
+          <span class="brand-name">ML <span>Lab</span></span>
         </button>
         <nav class="header-nav" aria-label="Main navigation">
           <button class="nav-button" type="button" data-action="curriculum">${icon('grid', 'icon-sm')}<span class="nav-label">Curriculum</span></button>
@@ -182,7 +182,7 @@ function renderHome() {
     <main>
       <section class="container hero">
         <div>
-          <span class="eyebrow"><span class="eyebrow-dot"></span>Your interactive GCI companion</span>
+          <span class="eyebrow"><span class="eyebrow-dot"></span>Your interactive machine learning companion</span>
           <h1>Don't just watch.<br><span class="highlight">Learn by doing.</span></h1>
           <p class="hero-description">Turn Sessions 1–9 into small, hands-on wins. Short explanations, visual experiments, and instant feedback help data science finally click.</p>
           <div class="hero-actions">
@@ -225,7 +225,7 @@ function renderHome() {
         <div class="session-grid">${sessions.map(renderSessionCard).join('')}</div>
       </section>
     </main>
-    <footer class="home-footer"><div class="container footer-inner"><span>Designed to complement—not replace—your original slides and notebooks.</span><a class="footer-link" href="https://drive.google.com/drive/folders/1Gsfpg2E-LEPB60eJMAYEchrnOjTofsN6" target="_blank" rel="noopener">Open GCI course materials${icon('external', 'icon-sm')}</a></div></footer>`;
+    <footer class="home-footer"><div class="container footer-inner"><span>Designed to complement—not replace—your original slides and notebooks.</span><a class="footer-link" href="https://drive.google.com/drive/folders/1Gsfpg2E-LEPB60eJMAYEchrnOjTofsN6" target="_blank" rel="noopener">Open original course materials${icon('external', 'icon-sm')}</a></div></footer>`;
 }
 
 function renderSidebar(session) {
